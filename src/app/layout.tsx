@@ -23,10 +23,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={playfair.className}>
-      <head></head>
-      <body className="bg-gradient-to-br from-accent from-10% to-neutral-300 to-90% text-neutral-800">
-        <div className="flex min-h-screen flex-col ">
-          <div className="z-10 mt-6 flex justify-center">
+      <head>
+        <title>Dave and Steph</title>
+      </head>
+      <body className="bg-gradient-to-br from-neutral-200 from-10% to-neutral-300 to-90% px-2 text-neutral-800">
+        <main className="flex min-h-screen flex-col ">
+          <nav className="z-10 mt-6 flex justify-center">
             <Link href="/">
               <Image
                 src="/images/logo.svg"
@@ -35,9 +37,9 @@ export default function RootLayout({
                 height={100}
               />
             </Link>
-          </div>
+          </nav>
           {children}
-        </div>
+        </main>
       </body>
     </html>
   );
