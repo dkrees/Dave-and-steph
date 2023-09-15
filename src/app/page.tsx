@@ -1,7 +1,6 @@
 import { FlowerImg } from "../../public/images/flower";
 
 export default function RootPage() {
-  const backgroundImg = "/images/flower.svg";
   return (
     <>
       <div className="absolute bottom-10 left-0 right-0 top-10 z-0 max-h-screen md:left-80">
