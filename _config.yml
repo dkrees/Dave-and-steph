@@ -20,7 +20,7 @@
 
 title: Dave and Steph
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://daveandsteph.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dkrees.github.io/Dave-and-steph/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 
