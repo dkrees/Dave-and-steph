@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+  </head>
+  <body class="bg-neutral-200 px-6 text-neutral-800 font-serif">
+    <nav class="mt-6 flex justify-center">
+      <a class="flex justify-center" href="/">
+        {% include logo.html %}
+      </a>
+    </nav>
+    <main class="container mx-auto min-h-screen overflow-hidden">
+      {{ content }}
+    </main>
+  </body>
+</html>
+
