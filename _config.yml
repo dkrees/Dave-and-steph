@@ -24,8 +24,8 @@ url: "http://www.daveandsteph.co.uk/" # the base hostname & protocol for your si
 
 # Build settings
 
-plugins:
-  - jekyll-postcss
+# plugins:
+#   - jekyll-postcss
 
 postcss:
   cache: false
